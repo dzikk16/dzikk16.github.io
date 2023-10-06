@@ -1,34 +1,19 @@
-
-.navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-}
-
-.navbar ul {
-    list-style-type: none;
+/* Reset beberapa default styling */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
-.navbar ul li {
-    display: inline;
-    margin-right: 20px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
 }
-
-.navbar a {
-    color: #fff;
-    text-decoration: none;
-}
-
 
 header {
-    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 h1 {
@@ -37,6 +22,54 @@ h1 {
 
 p {
     font-size: 18px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Link styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Proyek styling */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Media query untuk tampilan seluler */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
 }
 
 
